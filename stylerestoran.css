@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Quicksand", sans-serif;
+	scroll-behavior: smooth;
+}
+nav{
+	padding: 0 12px;
+	background: black;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav a{
+	margin: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+#header{
+	background: url("images/resto.jpg");
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	padding: 30px;
+}
+
+#header h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	color:red;
+}
+
+#header h1{
+	font-family: 'Acme', sans-serif;
+}
+#menu{
+	padding: 96px, 240px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#menu h2{
+	margin-top: 5px;
+}
+.card{
+	width:240px;
+	height: 240px;
+	margin: 24px;
+	box-shadow: 1px 10px 18px 0px #000;
+}
+
+.card img{
+	width: 240px;
+	height:200px;
+}
+
+.wrapper-card{
+	display:flex;
+	margin: 10 px;
+	direction: row;
+}
+
+.card h4{
+	padding: 12px;
+}
+
+#Alamat{
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #000;
+	color: #fff;
+}
+
+#sosmed{
+	padding: 24px;
+	display: flex;
+	justify-content: center;
+}
+
+#sosmed i{
+	margin: 12px;
+	font-size: 24px;
+	color: blue;
+}

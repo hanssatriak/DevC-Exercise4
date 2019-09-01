@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Exercise 4</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-    <center>
-        <h1>Final Project</h1>
-    </center>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="navbar">
+        <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Carrousel </a>
+        <a href="modal.html"> Modal </a>
+        <a href="cv.html"><i class="fa fa-fw fa-envelope"></i> CV </a>
+        <a href="restoran.html"><i class="fa fa-fw fa-user"></i> Restaurant </a>
+        <a href="register.html">Register</a>
+    </div> 
+
+
+    <br><br>    
+
+    <div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 5</div>
+        <img src="images/Wallpaper1.jpg" style="width:100%">
+        </div>
+  
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 5</div>
+        <img src="images/Wallpaper2.jpg" style="width:100%">
+        </div>
+  
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 5</div>
+        <img src="images/Wallpaper3.jpg" style="width:100%">
+        </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="images/Wallpaper4.jpg" style="width:100%">
+        </div>
+  
+    <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="images/Wallpaper5.jpg" style="width:100%">
+        </div>
+
+        
+  
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+  </div> 
+
+
+  <script src="script/script.js"></script>
 </body>
 </html>
